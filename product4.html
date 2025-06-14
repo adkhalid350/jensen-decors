@@ -1,0 +1,605 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Product-Categories</title>
+   <link rel="shortcut icon" href="jd black.jpeg" type="image/x-icon">
+  <link rel="shortcut icon" href="jd.jpeg" type="image/x-icon">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  
+</head>
+<style>
+  
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', Arial, sans-serif;
+  }
+
+
+
+
+  body {
+
+    background-color: whitesmoke;
+    background-image: url('img/c3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+
+  }
+
+
+@media (min-width: 92px) { 
+  .navbar-expand-lg .navbar-nav > .nav-item.dropdown {
+    position: static;
+  } 
+
+    
+  }
+
+
+
+
+
+
+
+.btnd:hover {
+  background-color: rgb(202, 165, 64);
+  font-size: 18px;
+  color: black;
+}
+
+
+
+
+.nav:hover {
+  background-color: rgb(202, 165, 64);
+  font-size: 15px;
+  border-radius: 1vh;
+
+}
+
+
+
+
+
+.img-hover {
+  transition: transform 0.4s ease;
+}
+
+.img-hover:hover {
+  transform: scale(1.1);
+  border-radius: 5px;
+  box-shadow: 0 0 10px white; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+</style>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid">
+      <a class="navbar-brand text-light  fw-bold" href="index.html">Jensen Decor</a>
+      <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon navbar-dark text-light"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-lg-auto my-3 my-lg-0 gap-lg-2 w-100 justify-content-center text-center">
+          <li class="nav-item"><a class="nav-link active text-light rounded-2 fw-bold btnd" href="index.html">Home</a></li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light btnd rounded-2 fw-bold" href="#" id="navbarDropdownCategories" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Product Categories
+            </a>
+            <div class="dropdown-menu dropdown-menu-dark  w-100" aria-labelledby="navbarDropdownCategories">
+              <div class="container-fluid">
+                <div class="row g-3 text-start text-md-center">
+
+                  <div class="col-12 col-sm-6 col-lg-2">
+                    <a href="product1.html" class="text-decoration-none">
+                      <h6 class="text-warning text-uppercase small fw-semibold mb-2 pb-1 border-bottom border-warning d-inline-block d-md-block">Metal Wall Art</h6>
+                    </a>
+                    <ul class="list-unstyled mb-0">
+                      <li><a class="dropdown-item small py-1" href="product1.html">Abstract Metal</a></li>
+                      <li><a class="dropdown-item small py-1" href="product1.html">Nature Inspired</a></li>
+                      <li><a class="dropdown-item small py-1" href="product1.html">Geometric Wall</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-lg-2">
+                    <a href="product2.html" class="text-decoration-none">
+                      <h6 class="text-warning text-uppercase small fw-semibold mb-2 pb-1 border-bottom border-warning d-inline-block d-md-block">Photo Frame Art</h6>
+                    </a>
+                    <ul class="list-unstyled mb-0">
+                      <li><a class="dropdown-item small py-1" href="product2.html">Classic Wooden</a></li>
+                      <li><a class="dropdown-item small py-1" href="product2.html">Modern Minimalist</a></li>
+                      <li><a class="dropdown-item small py-1" href="product2.html">Collage & Multi-Photo</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-lg-2">
+                    <a href="product3.html" class="text-decoration-none">
+                      <h6 class="text-warning text-uppercase small fw-semibold mb-2 pb-1 border-bottom border-warning d-inline-block d-md-block">Wall Shelves</h6>
+                    </a>
+                    <ul class="list-unstyled mb-0">
+                      <li><a class="dropdown-item small py-1" href="product3.html">Floating</a></li>
+                      <li><a class="dropdown-item small py-1" href="product3.html">Corner Wall</a></li>
+                      <li><a class="dropdown-item small py-1" href="product3.html">Box Wall</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-lg-2">
+                    <a href="product4.html" class="text-decoration-none">
+                      <h6 class="text-warning text-uppercase small fw-semibold mb-2 pb-1 border-bottom border-warning d-inline-block d-md-block">Mirror Art</h6>
+                    </a>
+                    <ul class="list-unstyled mb-0">
+                      <li><a class="dropdown-item small py-1" href="product4.html">Sunburst</a></li>
+                      <li><a class="dropdown-item small py-1" href="product4.html">Geometric</a></li>
+                      <li><a class="dropdown-item small py-1" href="product4.html">Antique Decorative</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-lg-2">
+                    <a href="product5.html" class="text-decoration-none">
+                      <h6 class="text-warning text-uppercase small fw-semibold mb-2 pb-1 border-bottom border-warning d-inline-block d-md-block">Wall Papers</h6>
+                    </a>
+                    <ul class="list-unstyled mb-0">
+                      <li><a class="dropdown-item small py-1" href="product5.html">Textured</a></li>
+                      <li><a class="dropdown-item small py-1" href="product5.html">Floral & Botanical</a></li>
+                      <li><a class="dropdown-item small py-1" href="product5.html">Geometric & Abstract</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-lg-2">
+                    <a href="product6.html" class="text-decoration-none">
+                      <h6 class="text-warning text-uppercase small fw-semibold mb-2 pb-1 border-bottom border-warning d-inline-block d-md-block">Wall Mounted Art</h6>
+                    </a>
+                    <ul class="list-unstyled mb-0">
+                      <li><a class="dropdown-item small py-1" href="product6.html">Wooden Animal Heads</a></li>
+                      <li><a class="dropdown-item small py-1" href="product6.html">Metal Silhouette</a></li>
+                      <li><a class="dropdown-item small py-1" href="product6.html">Resin Sculpted Mounts</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown position-relative">
+            <a class="nav-link dropdown-toggle text-light fw-bold btnd rounded-2" href="brands.html" id="brandsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Brands
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark shadow-lg text-center border-0 rounded-4 position-absolute start-50 translate-middle-x mt-lg-2" aria-labelledby="brandsDropdown" style="min-width: 240px;">
+              <li><a class="dropdown-item text-uppercase small py-2 border-bottom border-warning" href="brands.html"><i class="bx bx-diamond me-2"></i>Gloster</a></li>
+              <li><a class="dropdown-item text-uppercase small py-2 border-bottom border-warning" href="brands.html"><i class="bx bx-paint me-2"></i>BrandX</a></li>
+              <li><a class="dropdown-item text-uppercase small py-2" href="brands.html"><i class="bx bx-home-heart me-2"></i>DecorCo</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item"><a class="nav-link text-light fw-bold btnd rounded-2" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link text-light fw-bold btnd rounded-2" href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    
+
+
+
+
+<section class="hero-section  align-items-center" style="margin-top: 20vh;">
+    <div class="container text-center text-white">
+        <h1 class="  fw-bold mb-4   " style="font-size: 6vh;">Our Exclusive Product <br>Categories <span class="text-warning"> | Jensen Decors</span> </h1>
+         <div class="text-center mt-5">
+  <a href="product1.html" class="btn btn-warning btnd px-5 w-50 py-2 rounded-5 fs-5 fw-bold"> Categories</a>
+</div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+    <section class="category-section container py-5"  style="margin-top: 50vh;">
+      <h2 class="text-center display-5 mb-5 text-dark fw-bold text-uppercase">
+        Mirror Art
+      </h2>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 row-cols-xxl-6 g-4">
+        
+    <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4 mb-4 product-item">
+          <div class="card border-5  w-100 h-60">
+         <a href="sun.html">  <img src="img/sun.jpg"  class="product-card-img img-hover img-fluid w-100"  alt="Abstract Metal Art" style="  height: 250px; object-fit: cover;"></a> 
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">Sunburst</h5>
+              <p class="fw-semibold mb-0">$400.00</p>
+                  <a href="sun.html" class="btn btn-sm btn-warning btnd fw-semibold w-100">VIEW DETAILS</a>
+            </div>
+          </div>
+        </div>
+      
+    <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4 mb-4 product-item">
+          <div class="card border-5 shadow w-100 h-60">
+          <a href="geomeric.html">  <img src="img/geo mirror.jpeg" class="product-card-img img-hover img-fluid w-100"  alt="Abstract Metal Art" style="  height: 250px; object-fit: cover;"></a>
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">Geometric</h5>
+              <p class="fw-semibold mb-0">$500.00</p>
+                  <a href="geomeric.html" class="btn btn-sm btn-warning btnd fw-semibold w-100">VIEW DETAILS</a>
+            </div>
+          </div>
+        </div>
+    
+    <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4 mb-4 product-item">
+          <div class="card border-5 shadow w-100 h-60">
+          <a href="antique.html">  <img src="img/anti.jpeg"  class="product-card-img img-hover img-fluid w-100"  alt="Abstract Metal Art" style="  height: 250px; object-fit: cover;"></a>
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">Antique-Decorative</h5>
+              <p class="fw-semibold mb-0">$600.00</p>
+                  <a href="antique.html" class="btn btn-sm btn-warning btnd fw-semibold w-100">VIEW DETAILS</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+    <section class="category-section container py-5">
+      <h2 class="text-center  fs-1 mb-5 fw-bold text-uppercase">
+        Metal Wall Art
+      </h2>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 row-cols-xxl-6 g-4">
+
+   
+    <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4 mb-4 product-item">
+          <div class="card border-5 w-100 h-60 ">
+         <a href="abstract.html">   <img src="img/abtract.jpg" class="product-card-img img-fluid img-hover w-100  " alt="Abstract Metal Art" style="height: 250px; object-fit: cover;"></a>
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">Abstract Metal Art</h5>
+              <p class="fw-semibold mb-0">$400.00</p>
+                  <a href="abstract.html" class="btn btn-sm btn-warning fw-semibold btnd w-100">VIEW DETAILS</a>
+            </div>
+          </div>
+        </div>
+
+           <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4 mb-4 product-item">
+          <div class="card border-5 w-100  h-60">
+           <a href="nature ins .html"> <img src="img/nature.jpg" class="product-card-img img-hover img-fluid w-100 " alt="Abstract Metal Art" style="height: 250px; object-fit: cover;"></a>
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">Nature Inspired</h5>
+              <p class="fw-semibold mb-0">$500.00</p>
+                  <a href="nature ins .html" class="btn btn-sm btn-warning fw-semibold btnd w-100">VIEW DETAILS</a>
+            </div>
+          </div>
+        </div>
+
+   <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4 mb-4 product-item">
+          <div class="card border-5 w-100 h-60">
+          <a href="geomeric wall.html"> <img src="img/geomeric.webp" class="product-card-img img-hover img-fluid w-100"  alt="Abstract Metal Art" style="  height: 250px; object-fit: cover;" ></a> 
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">Geometric Wall</h5>
+              <p class="fw-semibold mb-0">$600.00</p>
+                  <a href="geomeric wall.html" class="btn btn-sm btn-warning fw-semibold btnd w-100">VIEW DETAILS</a>
+            </div>
+          </div>
+        </div>
+      
+
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="category-section container py-5">
+      <h2 class="text-center fs-1 mb-5 text-dark fw-bold text-uppercase">
+        Photo Frames
+      </h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 row-cols-xxl-6 g-4">
+
+   
+    <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4 mb-4 product-item">
+           <div class="card border-5 w-100 h-60">
+          <a href="classic wo .html">  <img src="img/classic wo.jpeg" class="product-card-img img-hover  img-fluid w-100"  alt="Abstract Metal Art" style="  height: 250px; object-fit: cover;" ></a>
+            <div class="card-body text-center">
+              <h5 class="card-title ">Classic Wooden</h5>
+              <p class="fw-semibold mb-0">$400.00</p>
+                  <a href="classic wo .html" class="btn btn-sm btn-warning fw-semibold btnd w-100">VIEW DETAILS</a>
+            </div>
+          </div>
+        </div>
+
+ 
+    <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4 mb-4 product-item">
+          <div class="card border-5  w-100 h-60">
+           
+         <a href="modern.html">   <img src="img/modern.jpg" class="product-card-img img-hover img-fluid w-100"  alt="Abstract Metal Art" style="  height: 250px; object-fit: cover;"></a>
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">Modern Minimalist</h5>
+              <p class="fw-semibold mb-0">$500.00</p>
+                  <a href="modern.html" class="btn btn-sm btn-warning fw-semibold btnd w-100">VIEW DETAILS</a>
+            </div>
+          </div>
+        </div>
+      
+    <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4 mb-4 product-item">
+          <div class="card border-5  w-100 h-60">
+          <a href="collage.html">  <img src="img/college.jpg" class="product-card-img img-hover img-fluid w-100"  alt="Abstract Metal Art" style="  height: 250px; object-fit: cover;"></a>
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">Collage & Photo</h5>
+              <p class="fw-semibold mb-0">$600.00</p>
+                  <a href="collage.html" class="btn btn-sm btn-warning fw-semibold btnd w-100">VIEW DETAILS</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+    <section class="category-section container py-5">
+      <h2 class="text-center fs-1 mb-5 text-dark fw-bold text-uppercase">
+        Wall Shelves
+      </h2>
+     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 row-cols-xxl-6 g-4">
+        
+    <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4 mb-4 product-item">
+          <div class="card border-5 w-100 h-60">
+           <a href="floating.html"> <img src="img/FLO.jpeg"  class="product-card-img img-hover img-fluid w-100"  alt="Abstract Metal Art" style="  height: 250px; object-fit: cover;"></a>
+            <div class="card-body text-center">
+              <h5 class="card-title ">Floating</h5>
+              <p class="fw-semibold mb-0">$600.00</p>
+                  <a href="floating.html" class="btn btn-sm btn-warning fw-semibold btnd w-100">VIEW DETAILS</a>
+            </div>
+          </div>
+        </div>
+       
+    <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4 mb-4 product-item">
+          <div class="card border-5 w-100 h-60">
+          <a href="corner.html"> <img src="img/corner.jpeg"  class="product-card-img img-hover img-fluid w-100"  alt="Abstract Metal Art" style="  height: 250px; object-fit: cover;"></a> 
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">Corner</h5>
+              <p class="fw-semibold mb-0">$500.00</p>
+                  <a href="corner.html" class="btn btn-sm btn-warning fw-semibold btnd w-100">VIEW DETAILS</a>
+            </div>
+          </div>
+        </div>
+        
+    <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4 mb-4 product-item">
+          <div class="card border-5 w-100 h-60">
+         <a href="box.html">   <img src="img/box.jpeg"  class="product-card-img img-hover img-fluid w-100"  alt="Abstract Metal Art" style="  height: 250px; object-fit: cover;"></a>
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">Box-Wall</h5>
+              <p class="fw-semibold mb-0">$600.00</p>
+                  <a href="box.html" class="btn btn-sm btn-warning btnd fw-semibold w-100">VIEW DETAILS</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    <section class="category-section container py-5">
+      <h2 class="text-center fs-1 mb-5 text-dark fw-bold text-uppercase">
+        Wallpapers
+      </h2>
+   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 row-cols-xxl-6 g-4">
+         
+    <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4 mb-4 product-item">
+          <div class="card border-5 w-100 h-60">
+           <a href="text.wall.html"> <img src="img/textured.jpg"  class="product-card-img img-hover img-fluid w-100"  alt="Abstract Metal Art" style="  height: 250px; object-fit: cover;"></a>
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">Textured</h5>
+              <p class="fw-semibold mb-0">$200.00</p>
+                  <a href="text.wall.html" class="btn btn-sm btn-warning btnd fw-semibold w-100">VIEW DETAILS</a>
+            </div>
+          </div>
+        </div>
+       
+    <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4 mb-4 product-item">
+          <div class="card border-5 w-100 h-60">
+          <a href="floral.html"> <img src="img/FLORAL.png"  class="product-card-img img-hover img-fluid w-100"  alt="Abstract Metal Art" style="  height: 250px; object-fit: cover;"></a> 
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">Floral & Botanical</h5>
+              <p class="fw-semibold mb-0">$500.00</p>
+                  <a href="floral.html" class="btn btn-sm btn-warning btnd fw-semibold w-100">VIEW DETAILS</a>
+            </div>
+          </div>
+        </div>
+        
+    <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4 mb-4 product-item">
+          <div class="card border-5 shadow w-100 h-60">
+         <a href="geoab.html">  <img src="img/GEO WALL.jpeg"  class="product-card-img img-hover img-hover img-fluid w-100"  alt="Abstract Metal Art" style="  height: 250px; object-fit: cover;"></a> 
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">Geo & Abstract</h5>
+              <p class="fw-semibold mb-0">$600.00</p>
+                  <a href="geoab.html" class="btn btn-sm btn-warning btnd fw-semibold w-100">VIEW DETAILS</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="category-section container py-5">
+      <h2 class="text-center  fs-1 mb-5 text-dark fw-bold text-uppercase">
+        Wall Mounted Art
+      </h2>
+   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 row-cols-xxl-6 g-4">
+        
+    <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4 mb-4 product-item">
+          <div class="card border-5  w-100 h-60">
+           <a href="animal.html"> <img src="img/woo.jpg"  class="product-card-img img-hover img-fluid w-100"  alt="Abstract Metal Art" style="  height: 250px; object-fit: cover;"></a>
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">Animals Art</h5>
+              <p class="fw-semibold mb-0">$400.00</p>
+                  <a href="animal.html" class="btn btn-sm btn-warning btnd fw-semibold w-100">VIEW DETAILS</a>
+            </div>
+          </div>
+        </div>
+       
+    <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4 mb-4 product-item">
+          <div class="card border-5 w-100 h-60">
+          <a href="metal.html">  <img src="img/sili.jpeg"  class="product-card-img img-hover img-fluid w-100"  alt="Abstract Metal Art" style="  height: 250px; object-fit: cover;"></a>
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">Metal-Silhouette</h5>
+              <p class="fw-semibold mb-0">$500.00</p>
+                  <a href="metal.html" class="btn btn-sm btn-warning btnd fw-semibold w-100">VIEW DETAILS</a>
+            </div>
+          </div>
+        </div>
+     
+    <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4 mb-4 product-item">
+          <div class="card border-5  w-100 h-60">
+          <a href="Sculpted.html">  <img src="img/RSIN.webp"  class="product-card-img img-hover img-fluid w-100"  alt="Abstract Metal Art" style="  height: 250px; object-fit: cover;"></a>
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2"> Sculpted Mounts</h5>
+              <p class="fw-semibold mb-0">$600.00</p>
+                  <a href="Sculpted.html" class="btn btn-sm btn-warning btnd fw-semibold w-100">VIEW DETAILS</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <footer class="container-fluid bg-dark text-light py-5 "  >
+    <div class="container">
+      <div class="row text-center text-lg-start">
+        <div class="col-lg-3 col-md-6 col-12 mb-4 px-4">
+          <h5 class="text-warning text-uppercase mb-3">About us</h5>
+        <p>   Our curated collection features everything from bold metal <br> art and contemporary photo  frames to intricate  mirror <br>  designs  and stylish <br> wall shelves. </p>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-12 mb-4 px-4">
+          <h5 class="text-warning text-uppercase mb-3">Categories</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="product1.html" class="text-light text-decoration-none">Metal Wall Art</a></li>
+            <li class="mb-2"><a href="product2.html" class="text-light text-decoration-none">Photo Frame Art</a></li>
+            <li class="mb-2"><a href="product3.html" class="text-light text-decoration-none">Mirror Art</a></li>
+            <li class="mb-2"><a href="product4.html" class="text-light text-decoration-none">Wall Shelves</a></li>
+            <li class="mb-2"><a href="product5.html" class="text-light text-decoration-none">Wall Papers</a></li>
+            <li class="mb-2"><a href="product6.html" class="text-light text-decoration-none">Wall Mounted Animals</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-12 mb-4 px-4">
+          <h5 class="text-warning text-uppercase mb-3">Pages</h5>
+          <ul class="list-unstyled">
+             <li class="mb-2"><a href="#" class="text-light text-decoration-none">Home</a></li>
+            <li class="mb-2"><a href="product1.html" class="text-light text-decoration-none">Shop</a></li>
+            <li class="mb-2"><a href="about.html" class="text-light text-decoration-none">About</a></li>
+            <li class="mb-2"><a href="contact.html" class="text-light text-decoration-none">Contact</a></li>
+            <li class="mb-2"><a href="login.html" class="text-light text-decoration-none">Login / Sign Up</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-12 mb-4 px-4">
+          <h5 class="text-warning text-uppercase mb-3">Contact Us</h5>
+          <p class="mb-2"><i class='fas fa-envelope text-warning me-3 '></i> adnankhalid@gmail.com</p>
+          <p class="mb-2"><i class='fas fa-phone text-warning me-2 mt-3'></i> 0333-3290479</p>
+          <p class="mb-2"><i class='fas fa-home text-warning me-2 mt-3'></i>   Karachi, Pakistan </p>
+
+        </div>
+      </div>
+      <hr class="border-secondary">
+      <div class="row">
+        <div class="col-12 text-center">
+          <p class="small mb-0">© <span id="currentYear"></span> WallDecor Emporium. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  
+</body>
+</html>
